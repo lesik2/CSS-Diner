@@ -1,0 +1,117 @@
+.css-board{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 250px;
+  box-sizing: border-box;
+  border: 1px solid #ffffff;
+  .css-board__header{
+    height: 20px;
+    background-color: #a6a6a6;
+    color: white;
+    font-size: 18px;
+    border-bottom: 1px solid white;
+  }
+  .css-board-body{
+    display: flex;
+    height:230px;
+    .css-board-body__numbers{
+      color: #737373;
+      display: flex;
+      flex-direction: column;
+      background-color: #f5f5f0;
+      width: 4%;
+      font-size: 14px;
+      text-align: center;
+      padding: 2px;
+      line-height: 135%;
+      padding-top: 9px;
+    }
+    .css-board-body__code{
+      box-sizing: border-box;
+      border-left: 1px solid white;
+      display: flex;
+      justify-content: space-between;
+      background-color: #f2f2f2;
+      width: 100%;
+      padding: 8px;
+    }
+
+  }
+
+}
+
+
+
+.input{
+  font-family: menlo, monospace;
+  color: #333;
+  border: none;
+  font-size: 14px;
+  line-height: 130%;
+  height: 18px;
+  background-color: #f2f2f2;
+  width: 80%;
+  outline: none;
+
+}
+.animated{
+  animation: input-anim infinite 0.5s;
+}
+@keyframes input-anim {
+  0%{
+    background-color: #f2f2f2;
+  }
+  50% {
+    background: rgba(62,203,255,.3);
+  }
+  
+}
+.enter-button{
+  width: 50px;
+  height: 20px;
+  padding: 2px 7px 2px 7px;
+  color: #666;
+  background: #ddd;
+  font-size: 10px;
+  font-weight: 500;
+  border: solid 1px #999;
+  box-shadow: 2px 3px 2px 1.5px #4d4d4d;
+  cursor: pointer;
+  transition: box-shadow 0.1s, transform 0.1s ease-out;
+
+}
+.click{
+  box-shadow: none;
+  transform: translateY(2px);
+}
+.shake{
+  animation: shake-action 0.1s 5 ease;
+}
+.lift{
+  animation: lift-up 0.5s 1 ease forwards;
+}
+@keyframes lift-up {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-9999px);
+  }
+  
+}
+@keyframes shake-action {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(5px);
+  }
+  
+}

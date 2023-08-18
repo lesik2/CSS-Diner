@@ -1,0 +1,175 @@
+<svg
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    id="svg3850"
+    viewBox="0 0 1195.1 440.57"
+    version="1.1"
+  >
+  <defs
+      id="defs3852"
+    >
+    <radialGradient
+        id="radialGradient3826"
+        gradientUnits="userSpaceOnUse"
+        cy="-775.91"
+        cx="2556"
+        gradientTransform="matrix(.84702 -2.5958e-8 0 .13220 391.02 -673.33)"
+        r="512.5"
+      >
+      <stop
+          id="stop3822"
+          offset="0"
+      />
+      <stop
+          id="stop3824"
+          stop-opacity=".504"
+          offset="1"
+      />
+    </radialGradient
+    >
+    <radialGradient
+        id="radialGradient3814"
+        gradientUnits="userSpaceOnUse"
+        cy="-775.91"
+        cx="2556"
+        gradientTransform="matrix(1.1645 -1.8227e-7 7.1094e-8 .45420 -420.42 -423.49)"
+        r="512"
+      >
+      <stop
+          id="stop3810"
+          offset="0"
+      />
+      <stop
+          id="stop3812"
+          stop-color="#f00"
+          offset="1"
+      />
+    </radialGradient
+    >
+  </defs
+  >
+  <g
+      id="layer1"
+      transform="translate(509.33 -206.36)"
+    >
+    <path
+        id="path3818"
+        transform="matrix(.93676 0 0 .81118 -2306.2 1140.1)"
+        fill="#ff4f4f"
+        d="m3068-775.91c0 92.784-229.23 168-512 168s-512-75.216-512-168 229.23-168 512-168 512 75.216 512 168z"
+    />
+    <path
+        id="path3804"
+        transform="matrix(1.1671 0 0 1.2446 -2894.9 1381.1)"
+        fill="url(#radialGradient3814)"
+        d="m3068-775.91c0 92.784-229.23 168-512 168s-512-75.216-512-168 229.23-168 512-168 512 75.216 512 168z"
+    />
+    <path
+        id="path3806"
+        transform="matrix(1.0405 0 0 1.0075 -2570.9 1192.2)"
+        fill="url(#radialGradient3826)"
+        d="m3068-775.91c0 92.784-229.23 168-512 168s-512-75.216-512-168 229.23-168 512-168 512 75.216 512 168z"
+    />
+    <path
+        id="path3816"
+        transform="matrix(.93676 0 0 .81118 -2306.2 1080.3)"
+        fill="#acacac"
+        d="m3068-775.91c0 92.784-229.23 168-512 168s-512-75.216-512-168 229.23-168 512-168 512 75.216 512 168z"
+    />
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+        <dc:title
+          >Serving tray</dc:title
+        >
+        <dc:date
+          >2013-04-09T09:00:00</dc:date
+        >
+        <dc:description
+          >a very simple tray</dc:description
+        >
+        <dc:source
+          >https://openclipart.org/detail/176923/serving-tray-by-dkdlv-176923</dc:source
+        >
+        <dc:creator
+          >
+          <cc:Agent
+            >
+            <dc:title
+              >dkdlv</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:creator
+        >
+        <dc:subject
+          >
+          <rdf:Bag
+            >
+            <rdf:li
+              >Plateau</rdf:li
+            >
+            <rdf:li
+              >bandeja</rdf:li
+            >
+            <rdf:li
+              >tray</rdf:li
+            >
+          </rdf:Bag
+          >
+        </dc:subject
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg>

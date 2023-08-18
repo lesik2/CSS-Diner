@@ -1,0 +1,71 @@
+.html-board{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 250px;
+  box-sizing: border-box;
+  border: 1px solid white;
+  .html-board__header{
+    height: 20px;
+    background-color: #262626;
+    color: white;
+    font-size: 18px;
+    border-bottom: 1px solid white;
+  }
+
+  .html-board-body{
+    display: flex;
+    height:230px;
+    .html-board-body__numbers{
+      color: #d6d6c2;
+      display: flex;
+      flex-direction: column;
+      background-color: #262626;
+      width: 4%;
+      font-size: 14px;
+      text-align: center;
+      padding: 2px;
+      padding-top: 9px;
+      line-height: 135%;
+    }
+    .html-board-body__code{
+      box-sizing: border-box;
+      border-left: 1px solid white;
+      display: flex;
+      flex-direction: column;
+      color: #63615e;
+      background-color: #27241e;
+      width: 97.5%;
+      font-family: "Source Code Pro",monospace;
+      font-size: 14.5px;
+      overflow: auto;
+      line-height: 130%;
+      padding: 8px;
+    }
+
+  }
+
+}
+.active{
+  .hljs-tag {
+    color: green;
+    .hljs-name {
+      color: white;
+    }
+    .hljs-string {
+      color: orangered;
+    }
+  }
+}
+.plate,.apple,.pineapple,.cheese,.tray{
+  display: block;
+}
+
+.plate > .apple,.plate > .pineapple,.plate > .cheese {
+  margin-left: 20px;
+}
+
+.tray > .pineapple,.tray > .apple,.tray > .cheese{
+  margin-left: 20px;
+}
+

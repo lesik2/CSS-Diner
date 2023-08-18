@@ -1,0 +1,73 @@
+.levels-list{
+  padding: 10px 10px 20px 10px;
+}
+.level{
+  display: flex;
+  font-size: 2.5rem;
+  color: #777;
+  text-align: center;
+  cursor: pointer;
+  justify-content: center;
+  margin-bottom: 2rem;
+  &:hover{
+    color: #777;
+  }
+}
+.level.completed{
+  .checkmark{
+    filter: invert(23%) sepia(93%) saturate(2089%) hue-rotate(95deg) brightness(97%) contrast(105%);
+  }
+}
+.level.helped{
+  .checkmark{
+    display: none;
+  }
+  .level-help{
+    display: block;
+  }
+}
+.level:hover{
+  background: rgba(255,255,255,.05);
+}
+.current{
+  background: rgba(255,255,255,.05);
+  color: white;
+  font-weight: bold;
+  &:hover{
+    color: white;
+  }
+}
+.checkmark{
+  margin-right: 5px;
+}
+.level-help{
+  width: 28px;
+  height: 28px;
+  padding-top: 5px;
+  display: none;
+  margin-right: 5px;
+}
+.reset-progress{
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  border: solid 2px rgba(255,255,255,.2);
+  margin: 0 auto;
+  padding: 9px 0 11px 0;
+  width: 80%;
+  color: #777;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+.reset-progress:hover {
+  background: rgba(255,255,255,.05);
+  color: white;
+}
+@media (max-width: 1300px) {
+  .level{
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+}

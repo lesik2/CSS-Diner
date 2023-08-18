@@ -1,0 +1,164 @@
+.game-wrapper{
+  perspective: 400px;
+  margin-bottom: 10px;
+  transform: translate3d(0,0,0);
+  min-width: 240px;
+
+}
+
+.desk-wrapper{
+  transform: rotateX(20deg);
+  transform-origin: bottom;
+  min-height: 142px;
+  background: #e68a00;
+  
+}
+.desk{
+  display: flex;
+  white-space: nowrap;
+  transform-style: preserve-3d;
+  padding: 40px 20px 20px 20px;
+  align-items: center;
+  
+}
+
+.end-game{
+  font-size: 35px;
+  color: #EEE;
+  text-shadow: 0px 4px 0px rgba(0,0,0,.15);
+  padding-left: 12px;
+}
+.desk-edge{
+  background: #ac741c;
+  height: 15px;
+  transform: rotateX(-40deg);
+  transform-origin: top;
+  position: relative;
+}
+.desk-leg{
+  width: 24px;
+  height: 10px;
+  background: #84570f;
+  position: absolute;
+  top: 15px;
+}
+.desk-leg:first-child {
+  left: 20px;
+}
+.desk-leg:last-child {
+  right: 20px;
+}
+plate{
+  position: relative;
+  display: block;
+  width: 118px;
+  height: 54px;
+  filter: drop-shadow(4px 7px 1px #000000);
+}
+#small {
+  transform: scale(0.7);
+}
+tray{
+  position: relative;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: block;
+  width: 120px;
+  height: 44px;
+  filter: drop-shadow(4px 7px 1px #000000);
+}
+tray>pineapple:first-child{
+  position: absolute;
+  left: 17px;
+  bottom: 13px;
+}
+tray>cheese:first-child{
+  position: absolute;
+  left: 20px;
+  bottom: 5px;
+}
+tray>cheese:last-child{
+  position: absolute;
+  left: 20px;
+  bottom: 37px;
+}
+tray>apple:last-child{
+  position: absolute;
+  left: 30px;
+  bottom: 45px;
+}
+tray>apple:first-child{
+  position: absolute;
+  left: 30px;
+  bottom: 14px;
+}
+plate>apple:last-child{
+  position: absolute;
+  left: 25px;
+  bottom: 79px;
+}
+plate>apple:first-child{
+  position: absolute;
+  left: 25px;
+  bottom: 14px;
+}
+plate>apple:nth-child(2){
+  position: absolute;
+  left: 25px;
+  bottom: 44px;
+}
+apple{
+  display: block;
+  width: 60px;
+  height: 60px;
+  filter: drop-shadow(1px 1px 1px #000000);
+}
+plate>pineapple:first-child{
+  position: absolute;
+  left: 15px;
+  bottom: 22px;
+}
+pineapple{
+  display: block;
+  width: 80px;
+  height: 80px;
+  filter: drop-shadow(1px 1px 1px #000000);
+}
+#huge{
+  transform: scale(1.3);
+  bottom: 30px;
+
+}
+cheese{
+  display: block;
+  width: 80px;
+  height: 60px;
+  filter: drop-shadow(1px 1px 1px #000000);
+}
+plate>cheese:first-child{
+  position: absolute;
+  left: 15px;
+  bottom: 12px;
+}
+.hovered{
+  filter: drop-shadow(0 0 2px white) drop-shadow(0 0 2px white) drop-shadow(0 0 2px white) drop-shadow(0 0 2px #ffff00) drop-shadow(0 0 2px #ffff00) ;
+  z-index: 2;
+}
+.green{
+  filter: invert(10%) sepia(99%) saturate(1055%) hue-rotate(84deg) brightness(89%) contrast(120%) drop-shadow(1px 1px 1px #000000);
+}
+.green.hovered{
+  filter: invert(10%) sepia(99%) saturate(1055%) hue-rotate(84deg) brightness(89%) contrast(120%) drop-shadow(0 0 2px white) drop-shadow(0 0 2px white) drop-shadow(0 0 2px white) drop-shadow(0 0 2px #ffff00) drop-shadow(0 0 2px #ffff00);
+}
+.selected{
+  animation: select-element 0.5s infinite  ease-out;
+}
+@keyframes select-element {
+  from{
+    scale: 1;
+  }
+  to {
+    scale: 1.1;
+  }
+  
+}
